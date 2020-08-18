@@ -34,7 +34,11 @@ public class FirstActivity extends AppCompatActivity {
                 String n1 = etn1.getText().toString();
                 String n2 = etn2.getText().toString();
 
-                Intent i = new Intent()
+                Intent i = new Intent(FirstActivity.this,SecondActivity.class);
+
+                i.putExtra("Extra_1",n1);
+                i.putExtra("Extra_1",n2);
+                startActivity(i);
             }
         });
     }

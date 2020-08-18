@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">IntentsProj</string>
+    <string name="num1">Number 1</string>
+    <string name="num2">Number 2</string>
+    <string name="btnSend">OK</string>
+    <string name="noo1">Number 1</string>
+    <string name="noo2">Number 2</string>
 </resources>

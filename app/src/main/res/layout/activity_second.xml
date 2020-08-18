@@ -9,12 +9,13 @@
 
     <TextView
         android:id="@+id/noo1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="84dp"
+        android:layout_height="36dp"
         android:layout_marginEnd="18dp"
-        android:text="TextView"
+        android:text="@string/noo1"
         app:layout_constraintBaseline_toBaselineOf="@+id/n1"
-        app:layout_constraintEnd_toStartOf="@+id/n1" />
+        app:layout_constraintEnd_toStartOf="@+id/n1"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btn1"
@@ -31,9 +32,9 @@
         android:id="@+id/btn2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="71dp"
         android:layout_marginStart="73dp"
         android:layout_marginTop="25dp"
+        android:layout_marginEnd="71dp"
         android:text="-"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/TvResult"
@@ -43,8 +44,8 @@
         android:id="@+id/btn4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="111dp"
         android:layout_marginEnd="64dp"
+        android:layout_marginBottom="111dp"
         android:text="/"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -61,20 +62,24 @@
 
     <TextView
         android:id="@+id/noo2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="18dp"
+        android:layout_width="95dp"
+        android:layout_height="34dp"
         android:layout_marginTop="36dp"
-        android:text="TextView"
+        android:layout_marginEnd="18dp"
+        android:text="@string/noo2"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/n2"
-        app:layout_constraintTop_toBottomOf="@+id/n1" />
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.115" />
 
     <TextView
         android:id="@+id/TvResult"
         android:layout_width="80dp"
         android:layout_height="23dp"
-        android:layout_marginBottom="147dp"
         android:layout_marginTop="146dp"
+        android:layout_marginBottom="147dp"
         android:text="TextView"
         app:layout_constraintBottom_toTopOf="@+id/btn4"
         app:layout_constraintEnd_toEndOf="parent"
@@ -95,8 +100,8 @@
         android:id="@+id/n1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="18dp"
         android:layout_marginTop="21dp"
+        android:layout_marginEnd="18dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
